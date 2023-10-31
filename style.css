@@ -264,7 +264,9 @@ body {
     font-size: 30px;
     line-height: 1.5;
   }
-
+  h2 {
+    font-size: 17px;
+  }
   #hero h2 {
     font-size: 17px;
   }
@@ -532,7 +534,7 @@ body {
     flex-direction: column;
   }
 
-  .product-container-1 .line::after{
+  .product-container-1 .line::after {
     display: none;
   }
   #product1 .pro {
