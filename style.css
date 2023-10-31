@@ -135,10 +135,10 @@ body {
   align-items: center;
 }
 
-#close{
-    display: none;
+#close {
+  display: none;
 }
-/* ============= MEDIA QUERY ================== */
+/* ============= MEDIA QUERY  FOR NAV BAR ================== */
 @media (max-width: 790px) {
   #navbar {
     display: flex;
@@ -175,6 +175,7 @@ body {
 
   #close {
     position: absolute;
+    display: initial;
     top: 30px;
     left: 30px;
     color: #222;
@@ -182,6 +183,15 @@ body {
   }
   #lg-bag {
     display: none;
+  }
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 20px;
+  }
+  #header {
+    padding: 10px 30px;
   }
 }
 
@@ -225,6 +235,29 @@ body {
 #hero button:hover {
   background-color: #088178;
   color: #cce7d0;
+}
+
+/* ============= MEDIA QUERY FOR HERO SECTION ================== */
+@media (max-width: 790px) {
+  #hero {
+    height: 70vh;
+    background-position: top 30% right 30%;
+    padding: 0 80px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 477px) {
+  #hero {
+    padding: 0 20px;
+    background-position: 55%;
+  }
 }
 /* ============= HERO SECTION END ================== */
 
@@ -281,6 +314,32 @@ body {
 #feature .fe-box:nth-child(6) h6 {
   background-color: #924770;
 }
+
+/* ============= MEDIA QUERY FOR FEATURE SECTION ================== */
+@media (max-width: 790px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+  #feature {
+    justify-content: center;
+  }
+
+  #feature .fe-box {
+    margin: 15px 15px;
+  }
+}
+
+@media (max-width: 477px) {
+  #feature {
+    justify-content: space-between;
+  }
+  #feature .fe-box {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+}
+
+/* ============= FEATURE SECTION end ================== */
 
 /* ============= CATEGORY SECTION START ================== */
 #category {
@@ -439,6 +498,25 @@ body {
 #product1 button {
   margin: 0 auto;
 }
+
+/* ============= MEDIA QUERY FOR PRODUCT1 SECTION ================== */
+@media (max-width: 790px) {
+  #product1 .pro-container,
+  .product-container-1 {
+    justify-content: center;
+    /* border: 2px solid red; */
+  }
+
+  #product1 .pro {
+    margin: 15px;
+  }
+}
+
+@media (max-width: 477px) {
+  #product1 .pro {
+    width: 100%;
+  }
+}
 /* ============= PRODUCT SECTION END ================== */
 
 /* ============= BANNER START ================== */
@@ -474,7 +552,23 @@ body {
   background: #088187;
   color: #fff;
 }
+
+/* ============= MEDIA QUERY FOR BANNER SECTION ================== */
+@media (max-width: 790px) {
+  #banner {
+    height: 20vh;
+  }
+}
+
+@media (max-width: 477px) {
+  #banner {
+    height: 40vh;
+  }
+}
 /* ============= BANNER END ================== */
+
+/* ============= SM BANNER START ================== */
+
 #sm-banner {
   display: flex;
   justify-content: space-between;
@@ -519,6 +613,25 @@ body {
   background-color: #088178;
   border: 1px solid #088178;
 }
+
+/* ============= MEDIA QUERY FOR BANNER SECTION ================== */
+@media (max-width: 790px) {
+  #sm-banner .banner-box {
+    height: 30vh;
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 477px) {
+  #sm-banner .banner-box {
+    height: 40vh;
+    /* border: 2px solid red; */
+  }
+
+  #sm-banner .banner-box2 {
+    margin-top: 20px;
+  }
+}
 /* ============= SM BANNER END ================== */
 
 /* ============= BANNER3 START ================== */
@@ -559,6 +672,26 @@ body {
   color: #ec544e;
   font-weight: 800;
   font-size: 15px;
+}
+
+/* ============= MEDIA QUERY FOR BANNER3 SECTION ================== */
+@media (max-width: 790px) {
+  #banner3 {
+    padding: 0 40px;
+  }
+
+  #banner3 .banner-box {
+    width: 28%;
+  }
+}
+
+@media (max-width: 477px) {
+  #banner3 {
+    padding: 0 20px;
+  }
+  #banner3 .banner-box {
+    width: 100%;
+  }
 }
 /* ============= BANNER3 END ================== */
 
@@ -613,6 +746,22 @@ body {
   border: none;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+/* ============= MEDIA QUERY FOR NEWSLETTER SECTION ================== */
+@media (max-width: 790px) {
+  #newsletter .form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 477px) {
+  #newsletter {
+    padding: 40px 20px;
+  }
+  #newsletter .form {
+    width: 100%;
+  }
 }
 
 /* ============= NEWSLETTER END ================== */
@@ -680,5 +829,11 @@ footer a:hover {
 footer .copyright {
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 477px) {
+  footer .copyright {
+    text-align: start;
+  }
 }
 /* ============= FOOTER END ================== */
