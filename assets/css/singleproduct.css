@@ -1,0 +1,85 @@
+:root {
+  /* --primary: #636afa; */
+  /* --primary: #4caf50; */
+  --primary: #041e42;
+  --secondary: #ffffff;
+  /* --brown: #795548; */
+  --brown: #02b388;
+  --gray: #757575;
+  --aqua: #4dd0e1;
+  --red: #ff5722;
+}
+
+/* ============= SINGLE SECTION START ================== */
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+}
+#prodetails .single-pro-image {
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+/* ============= SINGLE SECTION END ================== */
+
+/* ============= PRODUCT DETAILS SECTION START ================== */
+#prodetails .single-pro-details {
+  width: 50%;
+  padding: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+  padding: 40px 0 20px;
+}
+
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+  outline: none;
+}
+
+#prodetails .single-pro-details button {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+#prodetails .single-pro-details span {
+  line-height: 25px;
+}
+/* ============= PRODUCT DETAILS SECTION END ================== */
+
+@media (max-width: 477px) {
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #prodetails .single-pro-details {
+    width: 100%;
+  }
+}
