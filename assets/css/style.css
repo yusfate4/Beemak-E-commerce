@@ -14,6 +14,10 @@
   --red: #ff5722;
 }
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
 /* ============= GENERAL RESET ================== */
 * {
   margin: 0;
@@ -224,7 +228,7 @@ body {
 
 /* ============= HERO SECTION START ================== */
 #hero {
-  background-image: url("img/hero1.jpeg");
+  background-image: url("/img/hero1.jpeg");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -386,6 +390,7 @@ body {
 /* ============= CATEGORY SECTION START ================== */
 #category {
   text-align: center;
+  /* scroll-behavior: smooth; */
 }
 
 #category .pro-container {
@@ -523,7 +528,6 @@ body {
   font-size: 15px;
   font-weight: 700;
   color: var(--primary);
-
 }
 
 #product1 .pro .cart {
@@ -579,7 +583,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("img/banner/b2.jpg");
+  background-image: url("/img/banner/b2.jpg");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -632,7 +636,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("img/banner/b17.jpg");
+  background-image: url("/img/banner/b17.jpg");
   min-width: 580px;
   height: 50vh;
   background-size: cover;
@@ -641,7 +645,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-  background-image: url("img/banner/b10.jpg");
+  background-image: url("/img/banner/b10.jpg");
 }
 #sm-banner h2 {
   color: #fff;
@@ -700,7 +704,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("img/banner/b7.jpg");
+  background-image: url("/img/banner/b7.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -710,10 +714,10 @@ body {
 }
 
 #banner3 .banner-box2 {
-  background-image: url("img/banner/b4.jpg");
+  background-image: url("/img/banner/b4.jpg");
 }
 #banner3 .banner-box3 {
-  background-image: url("img/banner/b18.jpg");
+  background-image: url("/img/banner/b18.jpg");
 }
 
 #banner3 h2 {
@@ -890,3 +894,19 @@ footer .copyright {
   }
 }
 /* ============= FOOTER END ================== */
+
+/* ============= SCROLL REVIEW START ================== */
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  position: relative;
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+/* ============= SCROLL REVIEW END ================== */
