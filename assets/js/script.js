@@ -29,9 +29,11 @@ function reveal() {
 
     if (revealtop < windowheight - revealpoint) {
       reveals[i].classList.add("active");
-    } else {
-      reveals[i].classList.remove("active");
     }
+    
+    // else {
+    //   reveals[i].classList.remove("active");
+    // }
   }
 }
 
