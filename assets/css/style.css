@@ -261,6 +261,10 @@ body {
   font-size: 15px;
 }
 
+#hero button a {
+  text-decoration: none;
+  color: var(--secondary);
+}
 #hero button:hover {
   background-color: var(--brown);
   color: var(--secondary);
@@ -435,6 +439,10 @@ body {
   color: var(--secondary);
   text-align: center;
 }
+
+#category .pro .des a {
+  text-decoration: none;
+}
 /* ============= CATEGORY SECTION END ================== */
 
 /* ============= PRODUCT SECTION START ================== */
@@ -545,9 +553,24 @@ body {
 }
 
 #product1 button {
-  margin: 0 auto;
+  margin: 10px auto 0 auto;
+  padding: 18px 60px;
+}
+#product1 button:hover,
+#product1 button a:hover {
+  background-color: var(--brown);
+  color: var(--secondary);
+}
+#product1 button a {
+  text-decoration: none;
+  color: var(--primary);
 }
 
+/* #product1 button a:hover {
+  background-color: var(--brown);
+  color: var(--secondary);
+  border: none;
+} */
 /* ============= MEDIA QUERY FOR PRODUCT1 SECTION ================== */
 @media (max-width: 790px) {
   #product1 .pro-container,

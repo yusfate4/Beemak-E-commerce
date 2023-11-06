@@ -6,7 +6,6 @@
     <title>Beemak E-commerce</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/shop.css" />
-
     <script src="https://kit.fontawesome.com/15df32d772.js"></script>
   </head>
   <body>
@@ -19,10 +18,10 @@
       <div>
         <ul id="navbar">
           <li><a href="/index.html">Home</a></li>
-          <li><a href="/assets/html/shop.html">Shop</a></li>
-          <li><a href="/assets/html/blog.html">Blog</a></li>
-          <li><a href="/assets/html/about.html">About</a></li>
-          <li><a class="active" href="contact.html">Contact</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li id="lg-bag">
             <a href="cart.html">
               <i class="fa-solid fa-store"></i>
@@ -43,74 +42,87 @@
     </section>
     <!-- ============ NAV BAR END ============== -->
 
-    <!-- ============ HERO SECTION START ============== -->
-    <section id="page-header" class="about-header">
-      <p>Leave a message for us, we are always available</p>
-    </section>
-    <!-- ============ HERO SECTION END ============== -->
 
-    <!-- ============ CONTACT DETAILS SECTION START ============== -->
-    <section id="contact-details" class="section-p1">
-      <div class="details reveal">
-        <span>Get in Touch</span>
-        <h2>Visit us today or contact us</h2>
-        <h3>Head Office</h3>
-        <div>
-          <li>
-            <i class="fa-solid fa-map-pin"></i>
-            <p>12b, Ogunleye Eyinta, Lagos, Nigeria</p>
-          </li>
-
-          <li>
-            <i class="fa-regular fa-envelope"></i>
-            <p>beemakfoods@gmail.com</p>
-          </li>
-
-          <li>
-            <i class="fa-solid fa-phone"></i>
-            <p>+2348174485504</p>
-          </li>
-
-          <li>
-            <i class="fa-regular fa-clock"></i>
-            <p>Monday to Sunday: 10:00 to 20:00</p>
-          </li>
+    <!-- ============ PRODUCT 1 SECTION START ============== -->
+    <section id="product1" class="section-p1 reveal">
+      <div class="pro-container">
+        <div class="pro" onclick="window.location.href='singleproduct.html';">
+          <img src="/img/cereals/milo-cube.jpg" alt="" />
+          <div class="des">
+            <h5>Nestle Milo Cubes</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$10</h4>
+          </div>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping cart"></i>
+          </a>
         </div>
-      </div>
+        
+        <div class="pro">
+          <img src="/img/cereals/golden-morn.png" alt="" />
+          <div class="des">
+            <h5>Golden Morn 800G</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$15</h4>
+          </div>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping cart"></i>
+          </a>
+        </div>
 
-      <div class="map reveal">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253630.6973179563!2d3.394376781108143!3d6.649444343326612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bee62d44ab573%3A0x44ddf6ea18edfcb3!2sIkorodu%2C%20Lagos!5e0!3m2!1sen!2sng!4v1698928605602!5m2!1sen!2sng"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-    </section>
-    <!-- ============ CONTACT DETAILS SECTION END ============== -->
+        <div class="pro">
+          <img src="/img/cereals/cerelac.jpg" alt="" />
+          <div class="des">
+            <h5>Nestle Cerelac Infant Cereals With Milk</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$15</h4>
+          </div>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping cart"></i>
+          </a>
+        </div>
 
-    <!-- ============ CONTACT FORM DETAILS SECTION START ============== -->
-    <section id="form-details" class="section-p1 reveal">
-      <form action="" class="reveal">
-        <span>Leave a message</span>
-        <h2>We are here to help you</h2>
-        <input type="text" placeholder="Your Name" />
-        <input type="text" placeholder="E-mail" />
-        <input type="text" placeholder="Subject" />
-        <textarea
-          name=""
-          id=""
-          cols="30"
-          rows="10"
-          placeholder="Your Message"
-        ></textarea>
-        <button class="normal">Send Message</button>
-      </form>
+        <!-- <div class="pro">
+          <img src="/img/raw-food/indomie-onion.jpg" alt="" />
+          <div class="des">
+            <h5>Indomie Onion Chicken Flavor Carton 70g</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$50</h4>
+          </div>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping cart"></i>
+          </a>
+        </div> -->
+
     </section>
-    <!-- ============ CONTACT FORM DETAILS SECTION END ============== -->
+
+    <!-- ============ PAGINATION SECTION END ============== -->
+
+    <!-- ============ PRODUCT 1 SECTION END ============== -->
 
     <!-- ============ NEWSLETTER SECTION START ============== -->
     <section id="newsletter" class="section-p1 section-m1 reveal">
@@ -128,8 +140,8 @@
     </section>
     <!-- ============ NEWSLETTER SECTION END ============== -->
 
-     <!-- ============ FOOTER SECTION START ============== -->
-     <footer class="section-p1 reveal">
+    <!-- ============ FOOTER SECTION START ============== -->
+    <footer class="section-p1 reveal">
       <div class="col">
         <!-- <img
           class="logo"

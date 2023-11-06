@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beemak E-commerce</title>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/singleproduct.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
     <script src="https://kit.fontawesome.com/15df32d772.js"></script>
   </head>
   <body>
@@ -19,11 +19,11 @@
         <ul id="navbar">
           <li><a href="/index.html">Home</a></li>
           <li><a class="active" href="shop.html">Shop</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="../html/blog.html">Blog</a></li>
+          <li><a href="../html/about.html">About</a></li>
+          <li><a href="../html/contact.html">Contact</a></li>
           <li id="lg-bag">
-            <a href="cart.html">
+            <a href="../html/cart.html">
               <i class="fa-solid fa-store"></i>
               <!-- <i class="fa-regular fa-cart-shopping"></i> -->
               <!-- <i class="fas fa-shopping-bag"></i> -->
@@ -42,82 +42,14 @@
     </section>
     <!-- ============ NAV BAR END ============== -->
 
-    <!-- ============ PRODUCT DETAILS SECTION START ============== -->
-    <section id="prodetails" class="section-p1">
-      <div class="single-pro-image">
-        <img
-          src="/img/raw-food/indomie-onion.jpg"
-          width="100%"
-          id="MainImg"
-          alt=""
-        />
-        <div class="small-img-group">
-          <div class="small-img-col">
-            <img
-              src="/img/raw-food/indomie-onion.jpg"
-              width="100%"
-              class="small-img"
-              alt=""
-            />
-          </div>
-
-          <div class="small-img-col">
-            <img
-              src="/img/raw-food/indomie-table.jpg"
-              width="100%"
-              class="small-img"
-              alt=""
-            />
-          </div>
-
-          <div class="small-img-col">
-            <img
-              src="/img/raw-food/moimoi-pouch.jpg"
-              width="100%"
-              class="small-img"
-              alt=""
-            />
-          </div>
-
-          <div class="small-img-col">
-            <img
-              src="/img/raw-food/garri-ijebu.jpg"
-              width="100%"
-              class="small-img"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="single-pro-details">
-        <h6>Beemak Foods</h6>
-        <h4>indomie-onion Chicken Flavor Carton 70g - 40Pcs</h4>
-        <h2>$50.00</h2>
-        <p>Quantity</p>
-        <input type="number" value="1" />
-        <button class="normal">Add To Cart</button>
-        <h4>Product Details</h4>
-        <span>
-          Indomie Onion Chicken Flavor Carton (70g) - 40 Packs: A delectable
-          fusion of flavors in a convenient package, ready to transform your
-          meals into memorable culinary experiences. Order your carton today and
-          indulge in the savory goodness of Indomie Onion Chicken Flavor!
-        </span>
-      </div>
-    </section>
-    <!-- ============ PRODUCT DETAILS SECTION END ============== -->
 
     <!-- ============ PRODUCT 1 SECTION START ============== -->
     <section id="product1" class="section-p1 reveal">
-      <h2>Future Products</h2>
-      <!-- <p>Summer Collection New Model Design</p> -->
       <div class="pro-container">
-        <div class="pro">
-          <img src="/img/cereals/golden-morn.png" alt="" />
+        <div class="pro" onclick="window.location.href='singleproduct.html';">
+          <img src="/img/protein/snail.jpg" alt="" />
           <div class="des">
-            <!-- <span>adidas</span> -->
-            <h5>Golden Morn 800G</h5>
+            <h5>Oven Dried Snail</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -131,12 +63,11 @@
             <i class="fa-solid fa-cart-shopping cart"></i>
           </a>
         </div>
-
-        <div class="pro">
-          <img src="/img/drinks/amstel.jpg" alt="" />
+        
+        <!-- <div class="pro">
+          <img src="/img/spices/ewagonyi.jpg" alt="" />
           <div class="des">
-            <!-- <span>adidas</span> -->
-            <h5>Amstel Malt (Non Alcoholic)</h5>
+            <h5>Nigeria Ewa Agoyin Sauce</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -149,13 +80,12 @@
           <a href="#">
             <i class="fa-solid fa-cart-shopping cart"></i>
           </a>
-        </div>
+        </div> -->
 
-        <div class="pro">
-          <img src="/img/raw-food/garri-ijebu.jpg" alt="" />
+        <!-- <div class="pro">
+          <img src="/img/spices/pepper-soup-spice.jpg" alt="" />
           <div class="des">
-            <!-- <span>adidas</span> -->
-            <h5>Garri Ijebu (1kg)</h5>
+            <h5>Pepper Soup Spices</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -168,13 +98,12 @@
           <a href="#">
             <i class="fa-solid fa-cart-shopping cart"></i>
           </a>
-        </div>
+        </div> -->
 
-        <div class="pro">
-          <img src="/img/raw-food/indomie-onion.jpg" alt="" />
+        <!-- <div class="pro">
+          <img src="/img/spices/grinded-ogbono.jpg" alt="" />
           <div class="des">
-            <!-- <span>adidas</span> -->
-            <h5>Indomie Onion Chicken Flavor Carton 70g</h5>
+            <h5>Grinded Ogbono</h5>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -187,9 +116,48 @@
           <a href="#">
             <i class="fa-solid fa-cart-shopping cart"></i>
           </a>
-        </div>
-      </div>
+        </div> -->
+
+        <!-- <div class="pro">
+            <img src="/img/spices/suya-spice.jpg" alt="" />
+            <div class="des">
+              <h5>Suya Spices</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$50</h4>
+            </div>
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping cart"></i>
+            </a>
+          </div> -->
+
+          <!-- <div class="pro">
+            <img src="/img/spices/ungrinded-melon.jpg" alt="" />
+            <div class="des">
+              <h5>Ungrinded Melon</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$50</h4>
+            </div>
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping cart"></i>
+            </a>
+          </div> -->
+
     </section>
+
+    <!-- ============ PAGINATION SECTION END ============== -->
+
     <!-- ============ PRODUCT 1 SECTION END ============== -->
 
     <!-- ============ NEWSLETTER SECTION START ============== -->
@@ -268,26 +236,6 @@
     </footer>
     <!-- ============ FOOTER SECTION END ============== -->
 
-    <script>
-      let MainImg = document.getElementById("MainImg");
-      let smallimg = document.getElementsByClassName("small-img");
-
-      smallimg[0].onclick = function () {
-        MainImg.src = smallimg[0].src;
-      };
-
-      smallimg[1].onclick = function () {
-        MainImg.src = smallimg[1].src;
-      };
-
-      smallimg[2].onclick = function () {
-        MainImg.src = smallimg[2].src;
-      };
-
-      smallimg[3].onclick = function () {
-        MainImg.src = smallimg[3].src;
-      };
-    </script>
     <script src="../js/script.js"></script>
   </body>
 </html>
